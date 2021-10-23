@@ -18,7 +18,7 @@ namespace random_Number
             int tahminNo = 1;
             Random rn = new Random();
             holdNumber = rn.Next(altsinir, ustsinir);
-            Console.WriteLine(holdNumber);
+           
             Console.WriteLine("------------------------------");
 
             Console.Write("1.Tahmininiz: ");
